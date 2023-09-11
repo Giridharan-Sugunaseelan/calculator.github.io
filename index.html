@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/f5abe757fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="overall">
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previousOperandTextElement class="previous-operand"></div>
+                <div data-currentOperandTextElement class="current-operand"></div>
+            </div>
+            <div class="calculator-buttons">
+                <button data-operator>%</button>
+                <button data-allclear>C</button>
+                <button data-delete class="delete span2">DEL</button>
+                <button data-operator>1/x</button>
+                <button data-operator>x²</button>
+                <button data-operator>√x</button>
+                <button data-operator>÷</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operator>x</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operator>-</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operator>+</button>
+                <button data-operator>+/-</button>
+                <button data-number>0</button>
+                <button data-number>.</button>
+                <button data-equal class="equal">=</button>
+            </div>
+        </div>
+        <div class="instructions">
+            <h3>Key Bindings:</h3>
+            <ul>
+                <li>P - Percentage(%).</li>
+                <li>Q - Square root of a number(√x)</li>
+                <li>R - Reciprocal(1/x).</li>
+                <li>S - Square of a number(x²)</li>
+                <li>T - Plus (or) Minus(+/-)</li>
+            </ul>
+            
+            
+        </div>  
+    </div>     
+    <script src="./script.js"></script> 
+</body>
+<footer>Built by Giridharan Sugunaseelan</footer>
+</html>
